@@ -19,6 +19,10 @@ public class Ticket {
         return this.status;
     }
 
+    public Vehicle getVehicle(){
+        return this.vehicle;
+    }
+
     public ParkingSlot getSlot(){
         return this.slot;
     }
