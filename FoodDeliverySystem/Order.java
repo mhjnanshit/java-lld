@@ -30,6 +30,14 @@ public class Order {
         return this.restaurantId;
     }
 
+    public ArrayList<MenuItem> getOrderItems(){
+        return this.items;
+    }
+
+    public double getTotalBill(){
+        return this.totalBill;
+    }
+
     public OrderStatus getOrderStatus(){
         return this.orderStatus;
     }
